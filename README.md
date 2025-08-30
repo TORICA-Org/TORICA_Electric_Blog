@@ -1,2 +1,2 @@
 # TORICA_Electric_Blog
-Blog用リポジトリです。
+Blog用リポジトリ
