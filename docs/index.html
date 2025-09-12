@@ -1,3 +1,32 @@
+---
+layout: default
+title: Home
+---
+
+<h1 style="font-family:serif; width:100%; margin:10px auto;">
+  鳥科 電装班
+</h1>
+<img 
+  style='display:block; width:500px; max-width:100%; margin: 10px auto;' 
+  src='source/TORICA_LOGO_Plain.svg' 
+/>
+<p style="font-family:sans-serif; width:100%; margin:10px auto;">
+  東京理科大学鳥人間サークル鳥科の電装班公式ブログへようこそ！
+</p>
+
+<h1>Latest Posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      {{ post.date | date: "%Y-%m-%d" }}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
+<!--
 <!DOCTYPE html>
 <html lang="ja-JP">
   <head>
@@ -16,6 +45,6 @@
       <li><a href="/PCB_instruction">Kicadで設計した基板をJLCPCBに発注する</a></li>
       <li><a href="/Making_PCB/TORICAberry_Pi_Bico">電装班、表面実装に挑戦</a></li>
     </ul>
-    <script src="script.js" defer></script>
   </body>
 </html>
+-->

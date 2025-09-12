@@ -25,17 +25,17 @@
 ## 回路設計とレイアウトの工夫
 
 
-<img src="images/IMG_1660.jpeg" height="400px">
+<img src="../source/TORICAberry_Pi_Bico/IMG_1660.jpeg" height="400px">
 
 今回の基板は、できるだけ無駄を省き、機体にそのまま搭載可能なサイズ・構成を意識して設計しました。具体的な特徴は以下の通りです。
 
 - **RP2040の最小限の周辺回路構成**  
   クロック、USB、SPIフラッシュ、リセット回路など必要最小限の構成にしつつ、拡張性を保つピン配置にしました。
-  <img src="images/IMG_1626.jpg" height="600px">
+  <img src="../source/TORICAberry_Pi_Bico/IMG_1626.jpg" height="600px">
 
 - **部品サイズは0603を中心に構成**  
   チップ抵抗・チップコンデンサには0603・1005・1608サイズを多用しました。実装密度が上がることに伴って実装難易度も上がりますが、基板面積の削減には非常に効果的です。
-  <img src="images/IMG_1659.jpeg" height="500px">
+  <img src="../source/TORICAberry_Pi_Bico/IMG_1659.jpeg" height="500px">
 
 - **2層基板で裏面には部品を配置しない**  
   今回はリフロー実装に対応するため、部品はすべて表面側に集約し、裏面には配線とGNDプレーンのみを設けました。
@@ -51,7 +51,7 @@
 
 
 今回の基板製作にあたっては、**JLCPCB**様からご提供いただいたスポンサー枠を活用しました。JLCPCBは、プロのエンジニアから学生エンジニアまで幅広く利用されている、中国発の**高品質・低価格な基板製造サービス**です。  
-<img src="images/JLCPCB Logo.jpg" height="100px">
+<img src="../source/TORICAberry_Pi_Bico/JLCPCB Logo.jpg" height="100px">
 
 ### 圧倒的なコストメリット
 
