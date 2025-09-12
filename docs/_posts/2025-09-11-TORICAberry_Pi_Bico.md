@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "RP2040小型化基板の製作とJLCPCBの魅力に迫る"
-author: yoshi-a2
-date: 2025-09-11
 ---
 
 # RP2040小型化基板の製作とJLCPCBの魅力に迫る
