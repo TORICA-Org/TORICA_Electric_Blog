@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "KiCadで設計した基板をJLCPCBに発注する方法　～基板完成後から発注まで～"
-author: mss0809
-date: 2025-07-20
 ---
 
 # KiCadで設計した基板をJLCPCBに発注する方法　～基板完成後から発注まで～
