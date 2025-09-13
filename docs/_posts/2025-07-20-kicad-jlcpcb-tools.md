@@ -13,7 +13,7 @@ title: "KiCadで設計した基板をJLCPCBに発注する方法　～基板完�
 KiCadにJLCPCB発注用のプラグインをインストールします．KiCadを起動し，上のツールバーから"Tools" -> "Plugin and Content Manager"の順にクリックします（図１）．
 
 <p align="center">
-  <img src="/assets//assets/kicad-jlcpcb-tools/fig1.png" width="50%">
+  <img src="/assets/kicad-jlcpcb-tools/fig1.png" width="50%">
 </p>
 
 <!--![](/assets/kicad-jlcpcb-tools/fig1.png)-->
@@ -26,7 +26,7 @@ KiCadにJLCPCB発注用のプラグインをインストールします．KiCad�
 "Plugin and Content Manager"が起動するので検索窓に「jlc」と入力（図２）．
 
 <p align="center">
-  <img src="/assets//assets/kicad-jlcpcb-tools/fig2.png" width="70%">
+  <img src="/assets/kicad-jlcpcb-tools/fig2.png" width="70%">
 </p>
 <p align="center">
   図2　Fabrication Toolkitのインストール（１）
@@ -37,7 +37,7 @@ KiCadにJLCPCB発注用のプラグインをインストールします．KiCad�
 入力したら「Fabrication Toolkit」というプラグインが出てくるので"Install"をクリックします．クリックしたらウィンドウの右下"Apply Pending Changes"をクリックして変更を適用します．
 
 <p align="center">
-  <img src="/assets//assets/kicad-jlcpcb-tools/fig3.png" width="70%">
+  <img src="/assets/kicad-jlcpcb-tools/fig3.png" width="70%">
 </p>
 <p align="center">
   図3　Fabrication Toolkitのインストール（２）
