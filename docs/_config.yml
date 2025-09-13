@@ -1,10 +1,9 @@
 title: 鳥科 電装班
-thema: jekyll-theme-minimal
 plugins:
   - jekyll-sitemap
 defaults:
   - scope:
-      path: "source"
+      path: "assets"
     values:
       image: true
       
